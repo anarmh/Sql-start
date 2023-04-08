@@ -40,5 +40,5 @@ values(1, 'Cavid Bashirov',29,'cavidBashirov@gmail.com','Ahmadli',0),
 (4,'Teymur Ahmedov', 30,'teymurAhmedov@gmail.com','Sebayil',1)
 
 select* from Teachers 
-select * from Teachers where [isDeleted]=1
+select * from Teachers where [isDeleted]='true'
 select * from Teachers where [Age]>30
